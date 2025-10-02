@@ -1,0 +1,12 @@
+user_id,session_id,timestamp,event_type,metadata
+U1,S1,2024-01-01T09:00:00Z,landing,{"channel": "email"}
+U1,S1,2024-01-01T09:00:10Z,signup_start,{"screen": "step_1"}
+U1,S1,2024-01-01T09:02:00Z,signup_complete,{"plan": "premium"}
+U2,S2,2024-01-02T10:15:00Z,landing,{"channel": "ads"}
+U2,S2,2024-01-02T10:15:30Z,browse,{"category": "courses"}
+U2,S2,2024-01-02T10:16:00Z,signup_start,{"screen": "step_1"}
+U2,S2,2024-01-02T10:17:30Z,drop_off,{"reason": "form_length"}
+U3,S3,2024-01-03T12:00:00Z,landing,{"channel": "organic"}
+U3,S3,2024-01-03T12:00:20Z,browse,{"category": "pricing"}
+U3,S3,2024-01-03T12:02:00Z,signup_start,{"screen": "step_1"}
+U3,S3,2024-01-03T12:02:30Z,signup_complete,{"plan": "basic"}
